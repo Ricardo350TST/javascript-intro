@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="caja.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Caja de comentarios</title>
+</head>
+<body>
+
+    <h1>CAJA DE COMENTARIOS</h1>
+
+    <p>Crear una caja de comentarios donde los usuarios puedan escribir y agregar comentarios que se muestran en la página.
+    </p>
+
+    <form id="formulario">
+        <label for="comentario">Escribe tu comentario:</label>
+        <textarea name="comentario" id="comentario" rows="4" cols="50" placeholder="Comentario..." required></textarea>
+        <button type="submit">Agregar comentario</button>
+    </form>
+
+    <h2>Comentarios:</h2>
+    <div id="listaComentarios">
+
+    </div>
+
+    <script src="caja.js"></script>
+    
+</body>
+</html>
